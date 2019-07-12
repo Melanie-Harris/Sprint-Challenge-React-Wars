@@ -1,3 +1,11 @@
-.card{
-    margin-bottom: 10%;
+.card {
+    justify-content:  center;
+}
+
+.ui blue card card {
+    margin-bottom: 30px;
+}
+
+.font {
+    font-family: 'Kaushan Script', cursive;
 }

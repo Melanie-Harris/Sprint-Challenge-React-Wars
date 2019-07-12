@@ -7,11 +7,13 @@ const StarCharacters = props => {
     console.log(props.character.url)
     return (
         <div>
-            <Card color="blue" className="card"> 
+            <br />
+            <Card color="blue" className="card" style={{ margin: "auto", opacity: 0.5;}}> 
+                
                 <Card.Content>
-                    <Card.Header>{props.character.name}</Card.Header>
-                    < Card.Meta> {props.character.birth_year} </Card.Meta>
-                    <Card.Description> {props.character.gender} </Card.Description>
+                    <Card.Header className="font">{props.character.name}</Card.Header>
+                    < Card.Meta> Age: {props.character.birth_year} </Card.Meta>
+                    <Card.Description> Gender: {props.character.gender} </Card.Description>
                 </Card.Content>
             </Card>
         </div>

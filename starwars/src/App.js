@@ -34,7 +34,7 @@ const App = () => {
     <div className="App">
 
       <Container>
-        <h1>React Wars</h1>
+        <h1 className="title"> React Wars: <br/>M ay The Code Be With You ⚔︎</h1>
       <Divider />
         </Container>
         

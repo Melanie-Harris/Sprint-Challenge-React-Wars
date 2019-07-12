@@ -1,8 +1,15 @@
 .App {
   text-align: center;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbUmM7oHIcsGcWMz-2YVYNnSDrnclF1P2WxrIBq_rlpxo4X3gV)
 }
+
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+.title{
+  color: whitesmoke;
+}
+
 /* write your parent styles in here for your App.js */
