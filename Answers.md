@@ -5,7 +5,7 @@
 1. What does it mean to think in react?
 
 1. Describe state.
-
+  
 1. Describe props.
 
 1. What are side effects, and how do you sync effects in a React component to state or prop changes?
