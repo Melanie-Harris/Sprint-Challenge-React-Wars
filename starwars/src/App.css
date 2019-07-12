@@ -8,8 +8,10 @@
   text-shadow: 1px 1px 5px #fff;
 }
 
-.title{
+.title {
   color: whitesmoke;
+  font-family: 'Rubik Mono One', sans-serif;
+  /* font-family: 'Kaushan Script', cursive; */
 }
 
 /* write your parent styles in here for your App.js */
