@@ -2,14 +2,17 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-import StarCharacterComp from './components/StarCharacterComp';
+
+import { Container, Divider } from 'semantic-ui-react';
+
+import StarCharacterCompMap from './components/StarCharacterCompMap';
 
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
-  const [starChar, setStarChar] = useState({});
-  console.log('useState:', useState('state'))
+  const [starChar, setStarChar] = useState([]);
+  console.log(starChar)
 
   // Fetch characters from the star wars api in an effect hook. Remember, anytime you have a 
   // side effect in a component, you want to think about which state and/or props it should
@@ -29,8 +32,15 @@ const App = () => {
 
   return (
     <div className="App">
+
+      <Container>
+        <h1>React Wars</h1>
+      <Divider />
+        </Container>
+        
+
+      {starChar.length ? <StarCharacterCompMap characters={starChar} /> : <h1>loading</h1> }
       
-      <StarCharacterComp starChars={starChar} />
     </div>
   );
 }
