@@ -8,7 +8,7 @@ const StarCharacters = props => {
     return (
         <div>
             <br />
-            <Card color="blue" className="card" style={{ margin: "auto", opacity: 0.95}}> 
+            <Card color="blue" className="card" style={{ margin: "auto", opacity: 0.95, boxShadow: "30px 10px #4f5b81", borderRadius: "80px"}}> 
                 
                 <Card.Content>
                     <img style={{ width: "140px" }} src="https://i1.wp.com/www.gfxnerds.com/wp-content/uploads/2015/06/starwars-700x525.png?fit=700%2C525&ssl=1"></img>
